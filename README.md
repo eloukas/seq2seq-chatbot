@@ -12,7 +12,6 @@ You can view and run it step-by-step. Care, training time depends on the size of
 ## Technologies
 - Python 3
 - PyTorch
-- json/glob packages
 
 -------
 ### Different versions
@@ -27,6 +26,7 @@ Some workaround ideas:
 -------
 
 ## Future Work:
-- Importing pre-trained embeddings like Glove
+- Importing pre-trained embeddings like GloVe
 - Use SOTA Transformers like BERT
 - Use early stopping on a validation set
+- Add chit-chat dialogues to the dataset

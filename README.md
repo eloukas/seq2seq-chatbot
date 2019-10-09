@@ -7,14 +7,10 @@ Code is documented along with really illustrative comments in the `pytorch-seq2s
 
 You can view and run it step-by-step. Care, training time depends on the size of your data and your neural net/hardware configuration.
 
-## Sample Output
-The following photo is a simple proof of concept, trained on 7000 data points for ~80 minutes.
-![Sample Output](https://i.imgur.com/TTCfFTE.png "Sample Output")
-
 ## Technologies
 - Python 3
 - PyTorch
-
+- ...and a really expensive GPU
 -------
 ### Different versions
 Before PyTorch, **I also tried a char-level Keras model and a word-level TensorFlow model** on the unfiltered dataset, which struggled a lot with memory usage causing multiple out-of-memory (OOM) problems, even on a Tesla K80 GPU. 
